@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agricultura Inteligente</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Simulação de Monitoramento Agrícola</h1>
+    <form action="/resultado" method="post">
+        <label for="ambiente">Escolha o ambiente:</label>
+        <select name="ambiente" id="ambiente">
+            <option value="estufa">Estufa</option>
+            <option value="campo">Campo</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Monitorar">
+    </form>
+</body>
+</html>

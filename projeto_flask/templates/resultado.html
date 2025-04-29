@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado - {{ ambiente }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Resultado da Simulação - {{ ambiente }}</h1>
+    <p><strong>Leitura do Sensor:</strong> {{ sensor }}</p>
+    <p><strong>Status da Irrigação:</strong> {{ irrigacao }}</p>
+    <a href="/">← Voltar</a>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Agricultura>
+    <Estufa>
+        <SensorTemperatura>28.5°C (com proteção UV)</SensorTemperatura>
+        <ModuloIrrigacao>Irrigação ativada via microaspersor</ModuloIrrigacao>
+    </Estufa>
+    <Campo>
+        <SensorTemperatura>31.2°C (sensor resistente à chuva)</SensorTemperatura>
+        <ModuloIrrigacao>Irrigação ativada via gotejamento</ModuloIrrigacao>
+    </Campo>
+</Agricultura>
